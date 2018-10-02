@@ -2,7 +2,7 @@ class Game
 
   def self.compare(player1, player2)
     if player1 == "rock" && player2 == "paper"
-      return "Paper wins!"
+      return "Player 2 wins by playing paper!"
     elsif player1 == "rock" && player2 == "scissors"
       return "Rock wins!"
     elsif player1 == "rock" && player2 == "rock"
