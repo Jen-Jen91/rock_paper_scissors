@@ -6,9 +6,14 @@ require_relative("./models/game.rb")
 also_reload("./models/*")
 
 
+get "/" do
+  erb(:home)
+end
+
 
 get "/:player1/:player2" do
   player1 = params[:player1]
   player2 = params[:player2]
-  Game.compare(player1, player2)
+  @game = Game.compare(player1, player2)
+  erb(:result)
 end
