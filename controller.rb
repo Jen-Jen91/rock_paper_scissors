@@ -8,5 +8,7 @@ also_reload("./models/*")
 
 
 get "/:player1/:player2" do
-  
+  player1 = params[:player1]
+  player2 = params[:player2]
+  Game.compare(player1, player2)
 end

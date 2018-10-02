@@ -5,7 +5,7 @@ class Game
       return "Paper wins!"
     elsif player1 == "rock" && player2 == "scissors"
       return "Rock wins!"
-    elsif player1 == "rock" && player2 == "rocks"
+    elsif player1 == "rock" && player2 == "rock"
       return "It's a draw!"
     elsif player1 == "paper" && player2 == "scissors"
       return "Scissors wins!"
@@ -21,11 +21,8 @@ class Game
       return "It's a draw!"
     else
       "Please choose rock, paper, or scissors!"
+    end
   end
-
-
-
-
 
 
 
