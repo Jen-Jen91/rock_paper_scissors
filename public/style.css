@@ -1,10 +1,12 @@
 body {
   background-color: CornflowerBlue;
+  font-family: Verdana;
 }
 
 h1 {
   color: White;
   text-align: center;
+  font-size: 50px;
 }
 
 h2 {
@@ -17,5 +19,5 @@ p {
 
 a {
   text-decoration: none;
-  color: CornSilk;
+  color: white;
 }
